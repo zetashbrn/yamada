@@ -8,3 +8,4 @@ Here's how the website looks like:
 ![image](https://github.com/zetashbrn/yamada/assets/111561157/1e9de395-e2d1-4fbd-b90b-f1c90e11bde4)
 ![image](https://github.com/zetashbrn/yamada/assets/111561157/7ade2735-974a-4a47-8fe6-550395e4520e)
 ![image](https://github.com/zetashbrn/yamada/assets/111561157/59e98db6-e510-468d-bd29-3ddca9b4e108)
+![image](https://github.com/zetashbrn/yamada/assets/111561157/d541305b-2131-4069-afd8-f690912d47e8)
