@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/buy.css">
+    <title>YMD BUY</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html"><img src="../gamabr/Screen_Shot_2022-05-24_at_08.48.50-removebg-preview.png" alt="logo"></a>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="buy.html">BUY</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="txtawal">
+            <h3> <span>PLEASE FILL IN THE FORM</span>  </h3>  
+        </div>
+
+        <form action="" method="post">
+            <div id="dataform">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" placeholder="Type here">
+                <small></small>
+            </div>
+                
+            <div id="dataform">
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" placeholder="Type here">
+                <small></small>
+            </div>
+
+            <div id="dataform">
+                <label for="phonenumber">Phone Number:</label><br>
+                <input type="text" id="phonenumber" placeholder="Type here">
+                <small></small>
+            </div>
+
+            <div id="dataform">
+                <label for="address">Full Address:</label>
+                <textarea id="address" placeholder="Type here" rows="3"></textarea>
+            </div>
+
+            <div id="dataform">
+                <label for="cars">Select a car:</label>
+                <br>
+                <br>
+                <select name="cars" id="cars">
+                <option value="click">Click Here</option>
+                <option value="YAMADA">YAMADA XV750</option>
+                <option value="YAMADA">YAMADA XSR155</option>
+                <option value="YAMADA">YAMADA XSR700</option>
+                <option value="YAMADA">YAMADA VIR750</option>
+                <option value="YAMADA">YAMADA NMAX55</option>
+                <option value="YAMADA">YAMADA NMAXAS</option>
+                <option value="YAMADA">YAMADA XRIDE</option>
+                <option value="YAMADA">YAMADA FINO</option>
+                </select>
+            </div>
+    
+            <div id="dataform5">
+                <input type="submit" id="Submit" onclick="ValidateData()">
+            </div>
+        </form>
+        
+    </div>
+    
+        <div class="footer">
+            <h3>CONTACT US</h3>
+            <div class="sosmed">
+                <div class="wa">
+                    <img src="../gamabr/yaas.png">08777727727
+                </div>
+                <img src="../gamabr/envelope-solid 2.png"> yamasa@gmail.com
+
+                <img src="../gamabr/Vector (1).png" alt=""><a href=""><p>@yamadaid</p></a>
+
+                <img src="../gamabr/Vector.png" alt=""><a href=""><p>@yamadaid</p></a>
+            </div>
+        </div>
+</body>
+</html>
